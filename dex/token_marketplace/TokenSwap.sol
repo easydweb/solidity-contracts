@@ -12,7 +12,7 @@ contract CustomToken is ERC20 {
     }
 }
 
-contract CustomDex {
+contract TokenSwap {
     // Custom tokens to be initialized
     string[] public tokens = [
         "Tether USD",
@@ -30,7 +30,6 @@ contract CustomDex {
 
     uint256 ethValue = 100000000000000;
 
-    // struct
     struct History {
         uint256 historyId;
         string tokenA;
@@ -43,7 +42,6 @@ contract CustomDex {
     uint256 public _historyIndex;
     mapping(uint256 => History) private historys;
 
-    // constructor
     constructor() {
         for (uint256 i = 0; i < tokens.length; i++) {
             CustomToken token = new CustomToken(tokens[i], tokens[i]);
