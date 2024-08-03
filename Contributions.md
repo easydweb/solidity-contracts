@@ -4,3 +4,4 @@ minting/: [anshss](https://github.com/anshss)</br>
 nft-marketplace/: [anshss](https://github.com/anshss)</br>
 dex/: [panditdhamdhere](https://github.com/panditdhamdhere)</br>
 verkle-tree/: [panditdhamdhere](https://github.com/panditdhamdhere)</br>
+supra-vrf/: [panditdhamdhere](https://github.com/panditdhamdhere)</br>
